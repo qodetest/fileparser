@@ -44,18 +44,26 @@ namespace FindReplace
 
                 while ((line = SourceFile1.ReadLine()) != null)
                 {
-                    string pattern = @"\@subscriber = N'PMRP02\\PMRP02',";
+                    //string pattern = @"\@subscriber = N'PMRP02\\PMRP02',";
+                    string pattern = @"\@subscriber = N'PMRP02\\PMRP02',|exec sp_add";
                     string substitution = @"";
 
                     RegexOptions options = RegexOptions.Multiline | RegexOptions.Singleline | RegexOptions.IgnoreCase;
 
                     Regex regex = new Regex(pattern, options);
                     string result = regex.Replace(line, substitution);
+                    bool resultbool = regex.IsMatch(line);
+                    //string result = regex.de
 
                     if (result.Length > 0)
                     {
+                        if (resultbool == true)
+                        {
+                            DestinationFile.WriteLine("--" + line, true);
+                        }
+                        else
                         //DestinationFile.WriteLine(counter.ToString() + "," + result, true);
-                        DestinationFile.WriteLine(result, true);
+                        DestinationFile.WriteLine(line, true);
                     }
                     else Console.WriteLine("No Match on line : " + counter);
 
