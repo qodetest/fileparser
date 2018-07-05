@@ -59,7 +59,7 @@ namespace FindReplace
                     }
                     else Console.WriteLine("No Match on line : " + counter);
 
-                    //Next
+                    //Next line
                     counter++;
 
                 }
