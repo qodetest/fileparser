@@ -1,0 +1,6 @@
+c:\users\anthony.adesanwo\documents\visual studio 2017\Projects\FindReplace\FindReplace\obj\Debug\FindReplace.csprojResolveAssemblyReference.cache
+c:\users\anthony.adesanwo\documents\visual studio 2017\Projects\FindReplace\FindReplace\bin\Debug\FindReplace.exe.config
+c:\users\anthony.adesanwo\documents\visual studio 2017\Projects\FindReplace\FindReplace\bin\Debug\FindReplace.exe
+c:\users\anthony.adesanwo\documents\visual studio 2017\Projects\FindReplace\FindReplace\bin\Debug\FindReplace.pdb
+c:\users\anthony.adesanwo\documents\visual studio 2017\Projects\FindReplace\FindReplace\obj\Debug\FindReplace.exe
+c:\users\anthony.adesanwo\documents\visual studio 2017\Projects\FindReplace\FindReplace\obj\Debug\FindReplace.pdb
